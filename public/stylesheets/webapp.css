@@ -1,0 +1,184 @@
+/* CSS for screen width under 640px */
+@media all and (max-width: 40em){
+	.cssDeskAdj{
+		display: none;
+	}
+
+	.lightImg {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	}
+
+	.lightLbl {
+	font-family: Arial;
+	font-style: bold;
+	position: relative;
+	left: 20px;
+	top: 15px;
+	}
+
+	#acSlider {
+	position: relative;
+	top: 0px;
+	}
+
+	#mobACImg {
+	position: relative;
+	top: -60px;
+	left: 100%;
+	display: inline;
+	}
+
+	#mobAlarm {
+	position: relative;
+	left: 22%;
+	width: 50%;
+	height: 60px;
+	border: 2px solid black;
+	background-color: LightGray;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+	cursor: default;
+	}
+	
+	#mobDoor1div{
+		color: red;
+	}
+	
+	#mobDoor2div{
+		color: red;
+	}
+}
+
+/* CSS for screen width equal or over 640px */
+@media all and (min-width: 40em){
+	.cssMobAdj{
+		display: none;
+	}
+	
+	#desktopForm{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background-image: url("/images/background_d.png");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: center;		
+	}
+	
+	#deskLight-1{
+		border: 2px solid white;
+		border-radius: 10px;
+		background-color: gray;
+		background-image: url("/images/light_off.png");
+		width: 32px;
+		height: 32px;
+		position: absolute;
+		top: 29%;
+		left: 33%;
+	}
+	
+	#deskLight-2{
+		border: 2px solid white;
+		border-radius: 10px;
+		background-color: gray;
+		background-image: url("/images/light_off.png");
+		width: 32px;
+		height: 32px;
+		position: absolute;
+		top: 45%;
+		right: 33%;
+	}
+	
+	#deskLight-3{
+		border: 2px solid white;
+		border-radius: 10px;
+		background-color: gray;
+		background-image: url("/images/light_off.png");
+		width: 32px;
+		height: 32px;
+		position: absolute;
+		bottom: 16%;
+		left: 16%;
+	}
+	
+	#deskLight-4{
+		border: 2px solid white;
+		border-radius: 10px;
+		background-color: gray;
+		background-image: url("/images/light_off.png");
+		width: 32px;
+		height: 32px;
+		position: absolute;
+		bottom: 25%;
+		left: 55%;
+	}
+	
+	#deskACForm{
+		position: absolute;
+		top: 25%;
+		left: 3%;
+	}
+	
+	#deskAlarm{
+		position: absolute;
+		top: 5%;
+		left: 3%;
+		width: 10%;
+		height: 10%;
+		border: 3px solid black;
+		background-color: LightGray;
+		border-radius: 20px;
+		color: white;
+		text-align: center;
+		cursor: default;
+	}
+	
+	#deskBack{
+		position: absolute;
+		top: 46%;
+		left: 3%;
+	}
+	
+	#deskCreatedBy{
+		font-family: Arial;
+		font-size: 1em;
+		position: absolute;
+		right: 20%;
+		bottom: 3%;		
+	}
+	
+	#deskDoor1{
+		position: absolute;
+		bottom: 55%;
+		left: 27%;
+		width: 5%;
+		height: 1%;
+		background-color: red;
+		border-radius: 2px;
+	}
+	
+	#deskDoor2{
+		position: absolute;
+		bottom: 21%;
+		left: 31%;
+		width: 5%;
+		height: 1%;
+		background-color: red;
+		border-radius: 2px;
+	}
+	
+	#deskMenu{
+		position: absolute;
+		top: 5%;
+		right: 3%;
+		width: 48px;
+		height: 48px;
+		background-image: url("/images/menu.png");
+		cursor: pointer;
+	}
+}

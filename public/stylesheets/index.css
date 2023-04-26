@@ -1,0 +1,49 @@
+.ui-dialog-contain{
+	width: 92.5%;
+	max-width: 500px;
+	background-color: #3366FF;
+	border: 5px solid blue;
+	border-radius: 30px;
+	text-align: center;
+}
+
+#enterBtnME {
+	position: relative;
+	left: 1%;
+}
+
+#enterBtnEN {
+	position: relative;
+	left: 1%;
+}
+
+#lngMn{
+	background-image: url("/images/mn.png");
+	position: relative;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+
+#lngEn{
+	background-image: url("/images/en.png");
+	position: relative;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+
+#nameWebApp {
+	font-family: "Comic Sans MS", "Arial";
+	font-size: 30px;
+	color: white;
+	cursor: default;
+}
+
+#houseIco {
+	background-image: url("/images/home.png");
+	width: 128px;
+	height: 128px;
+	position: relative;
+	left: 37%;
+}
